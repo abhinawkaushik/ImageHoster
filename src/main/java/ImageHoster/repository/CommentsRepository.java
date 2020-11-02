@@ -28,7 +28,7 @@ public class CommentsRepository {
         } catch (Exception e) {
             transaction.rollback();
         }
-        return tag;
+        return comments;
     }
 
     public Tag findComments(Image image) {
